@@ -1,15 +1,14 @@
 import React, { Fragment } from 'react'
+import Layout from '../components/masterLayout/Layout'
 
-import Layout from '../components/masterLayout/Layout';
-
-const Home = () => {
+const ProfilePage = () => {
   return (
     <Fragment>
       <Layout>
         
       </Layout>
     </Fragment>
-  );
+  )
 }
 
-export default Home
+export default ProfilePage
