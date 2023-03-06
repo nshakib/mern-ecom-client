@@ -1,0 +1,80 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+.home-header-card {
+  width: 100%;
+  min-height: 500px;
+  background: rgba(219, 233, 240, 0.6);
+  background-image: url("../images/Circle.svg");
+  background-repeat: no-repeat;
+  background-position: -100px 100px;
+  background-size: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.home-main-img {
+  background-image: url(../images/IPhone12.png);
+  max-width: 450px;
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 10px;
+  margin: 30px 0 0 20px;
+}
+.home-text-block {
+  padding: 0 70px 0 30px;
+  margin-top: 30px;
+  width: 45%;
+}
+.home-button-body {
+  display: flex;
+  justify-content: flex-end;
+}
+.home-button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: #8497a1;
+  border-radius: 22px;
+  border: none;
+  padding: 12px 50px;
+}
+.home-title {
+  font-size: 55px;
+  font-weight: 800;
+}
+.home-second-text {
+  font-size: 18px;
+}
+
+.home-item-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.home-item-cards-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+.home-more-btn {
+  padding: 12px 30px;
+  color: #fff;
+  background: #eb5454;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.home-more-btn:hover {
+  background: #da324b;
+  transform: scale(1.01);
+  transition: all 0.1s ease-in-out;
+}

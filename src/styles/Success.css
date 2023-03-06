@@ -1,0 +1,22 @@
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  color: #303030;
+}
+.success-img {
+  width: 200px;
+}
+.success-button {
+  color: #fff;
+  font-weight: 500;
+  background: #bbbbbb;
+  padding: 12px 24px;
+  border-radius: 12px;
+  transition: all .2s ease-in-out;
+}
+.success-button:hover {
+  background: #a8a8a8;
+  transition: all .2s ease-in-out;
+}

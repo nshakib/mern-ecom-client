@@ -1,0 +1,15 @@
+.checkout-steps {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.checkout-steps > div {
+  border-top: .3rem #e7e7e7 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+}
+.checkout-steps > div.active {
+  border-top-color: #eb5454;
+  color: #eb5454;
+}

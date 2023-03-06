@@ -1,0 +1,26 @@
+.shipping {
+  max-width: 500px;
+  width: 100%;
+  margin: 100px auto;
+}
+
+.shipping-footer {
+  width: 100%;
+  margin-top: 50px;
+}
+.shipping-button {
+  color: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 0;
+  background: #f53855;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.shipping-button:hover {
+  background: #da324b;
+  transform: scale(1.01);
+  transition: all 0.1s ease-in-out;
+}
